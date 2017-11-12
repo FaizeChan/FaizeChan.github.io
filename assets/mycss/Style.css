@@ -1,0 +1,23 @@
+﻿body {
+}
+
+#header {
+    padding: 9em 0 9em 0;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.75);
+    background-image: url('../../images/beach.jpg');
+    background-position: top left, center center, center center;
+    background-size: 1500px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.main.style2 {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.85);
+    background-attachment: fixed, fixed;
+    background-image: url('../../images/beach.jpg');
+    background-size: 1350px;
+}
+
