@@ -11,6 +11,8 @@
     overflow: hidden;
     position: relative;
     text-align: center;
+    -webkit-filter: grayscale(10%);
+    
 }
 
 .main.style2 {
@@ -19,6 +21,7 @@
     background-attachment: fixed, fixed;
     background-image: url('../../images/beach.jpg');
     background-size: 1350px;
+    -webkit-filter: grayscale(10%);
 }
 
 .main.style1 {
@@ -43,9 +46,13 @@ p {
 }
 
 .colorBlue {
-    color: #337ab7;
+    color: lightskyblue;
 }
 
 .footerColor {
     color: #337ab7;
+}
+
+.button {
+    color: lightskyblue !important;
 }
