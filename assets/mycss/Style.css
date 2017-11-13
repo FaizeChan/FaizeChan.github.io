@@ -15,6 +15,15 @@
     
 }
 
+.glyphicon-fire:before {
+    color: orange;
+}
+
+#header h1 {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
 .main.style2 {
     background-color: #333;
     color: rgba(255, 255, 255, 1);
@@ -42,11 +51,22 @@
 }
 
 p {
+    font-family: 'Merriweather', serif;
     color: white;
 }
 
+.justFont {
+    font-family: 'Merriweather', serif;
+}
+
 .colorBlue {
+    font-family: 'Merriweather', serif;
     color: lightskyblue;
+}
+.colorBlue2 {
+    font-family: 'Merriweather', serif;
+    color: lightskyblue;
+    text-align: center;
 }
 
 .footerColor {
@@ -54,5 +74,11 @@ p {
 }
 
 .button {
+    font-family: 'Merriweather', serif;
     color: lightskyblue !important;
 }
+
+h5 {
+    color: #337ab7 !important;
+}
+
